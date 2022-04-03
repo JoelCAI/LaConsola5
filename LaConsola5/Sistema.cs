@@ -8,6 +8,14 @@ namespace LaConsola5
 {
      public class Sistema
     {
+		public void MenuPrincipal()
+		{
+            Validador.TeclaControlG();
+		}
 
+		public void Iniciar()
+        {
+            MenuPrincipal();
+        }
     }
 }
