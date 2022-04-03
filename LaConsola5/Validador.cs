@@ -64,7 +64,7 @@ namespace LaConsola5
                 Console.WriteLine();
             } while (input.Key !=ConsoleKey.G || input.Modifiers != ConsoleModifiers.Control);
 
-            if (input.Key == ConsoleKey.G || input.Modifiers == ConsoleModifiers.Control)
+            if (input.Key == ConsoleKey.G && input.Modifiers == ConsoleModifiers.Control)
             {
                 Validador.Despedida();
             }
